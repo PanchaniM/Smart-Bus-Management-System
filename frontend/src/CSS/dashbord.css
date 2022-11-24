@@ -1,0 +1,50 @@
+.oouuter-container{
+    width: 1920px;
+    height: 1080px;
+    display: block;
+}
+
+.dashbord{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+.inside-container{
+    padding: 30px;
+    margin-top:20px ;
+}
+
+.dashbord_container{
+    z-index: -1;
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);  
+    left:0;
+    width: 100%;  
+    height:100%;   
+    position: absolute;
+    justify-content: center;
+}
+
+.dashbord_container .block_1{
+    display: block;
+    margin: auto;
+    margin-top:70px;
+    width: 100%;
+    height: 550px;
+}
+
+.dashbord_container .block_2{
+    width: 1250px;
+    height: 500px;
+    margin: 25px auto;
+   
+}
+
+.bbBar{
+    margin-top: 550px;
+    margin-left: -4%;
+    width: 88%;  
+    height:max-content;   
+    position: absolute;
+    justify-content: center;
+}

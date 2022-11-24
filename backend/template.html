@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      .tabel22 th{
+        padding: 10px;
+        margin-left: 10px;
+      }
+
+      .tabel22 td{
+        padding: 10px;
+        margin-left: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <table className="table22">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">NIC</th>
+          <th scope="col">Name</th>
+          <th scope="col">Phone</th>
+          <th scope="col">Type</th>
+          <th scope="col">Email</th>
+          <th scope="col">Password</th>
+        </tr>
+      </thead>
+      {{#each users}}
+      <tr>
+        <th>#</th>
+        <td>{{this.NIC}}</td>
+        <td>{{this.Name}}</td>
+        <td>{{this.Phone}}</td>
+        <td>{{this.Type}}</td>
+        <td>{{this.Email}}</td>
+        <td>{{this.Password}}</td>
+        
+      </tr>
+      {{/each}}
+      </table>
+  </body>
+</html>

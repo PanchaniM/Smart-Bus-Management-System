@@ -1,0 +1,115 @@
+
+.outer-block-acc-create{
+    position: fixed;
+    display: block;
+    width: 1920px;
+    height: 1080px;
+    object-fit: contain;
+    background-image:url('../../../img/login/london-bus.jpg'); 
+}
+
+.outer-block-acc-create .mid-block{
+    display: block;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 1000px;
+    height: 500px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(143,143,143,1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(143,143,143,1);
+    box-shadow: 0px 0px 10px 1px rgba(143,143,143,1);
+}
+
+.outer-block-acc-create .mid-block .left-block{
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 500px;  
+    background-image: linear-gradient(to right bottom, #0d1c32, #002a5f, #07358c, #3a3bb8, #7137de);
+
+}
+
+.outer-block-acc-create .mid-block .left-block .text-holder{
+    color: white;
+    margin-top: 35%;
+}
+
+.outer-block-acc-create .mid-block .left-block .text-holder h3{
+    margin-bottom: 20px;
+}
+
+.outer-block-acc-create .mid-block .left-block .text-holder p{
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.outer-block-acc-create .mid-block .left-block .text-holder button{
+    color: white;
+    border: 1px solid white;
+    border-radius: 250px;
+    width: 100px;
+    background-color: unset;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.outer-block-acc-create .mid-block .left-block .text-holder button:hover{
+    background-color: #00ffbf28;
+}
+
+
+.outer-block-acc-create .mid-block .right-block{
+    display: inline-block;
+    position: relative;
+    float: left;
+    right: 0;
+    width: 500px;
+    height: 600px;
+    margin-top: -50px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(143,143,143,1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(143,143,143,1);
+    box-shadow: 0px 0px 10px 1px rgba(143,143,143,1);
+}
+
+.outer-block-acc-create .mid-block .right-block h3{
+margin-top: 50px;
+}
+
+.outer-block-acc-create .mid-block .right-block hr{
+    margin-bottom: 50px;
+    width: 80%;
+    height: 2px;
+    background-color: blue;
+}
+
+
+.outer-block-acc-create .mid-block .right-block button{
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: unset;
+    border-radius: 250px;
+    color: white;
+    border: 1px solid white;
+    transition: .3s;
+    opacity: .8;
+    background-color: #1B4F72;
+}
+
+.outer-block-acc-create .mid-block .right-block button:hover{   
+    opacity: 1;
+}
+
+.data-entries1{
+    margin-top: 10px;
+}
+
+.data-entries{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}

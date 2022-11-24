@@ -1,0 +1,306 @@
+.payment-background{
+    display: flex;
+    position:fixed;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    width: 100%;
+    height: 100%;
+}
+
+.payment_headings{
+    color: white;
+    text-align: center;
+}
+
+.selection{
+  width: 100%;
+  height: 30px;
+}
+
+.payment_headings h1{
+    letter-spacing: 12px;
+}
+
+.head p{
+  font-size: 20px;
+}
+
+.payment-container{
+    overflow: hidden;
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 1300px;
+    height: 800px;
+    border-radius: 5px;
+    padding:2px
+}
+
+.main-paymentblock{
+    overflow: hidden;
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 95%;
+    height: 90%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+
+.choose{
+    display: block;
+    color: #707070;
+    text-align: center;
+    margin: 2px;
+}
+
+.chooseside{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+    align-items: center;
+}
+
+
+
+
+.main-paymentblock .left{
+    display: block;
+    position: relative;
+    float: left;
+    width: 95%;
+    height: 100%;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    border-color: #e0e0e0;
+    transition: 0.5s;
+
+}
+
+.main-paymentblock .left.checked{
+  display: block;
+  position: relative;
+  float: left;
+  width: 5%;
+  height: 100%;
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
+
+
+}
+
+.main-paymentblock .right{
+    display: block;
+    position: relative;
+    float: left;
+    width: 95%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+
+
+
+
+.main-paymentblock .right.checked{
+  display: block;
+  position: relative;
+  float: left;
+  width: 5%;
+  height: 100%;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #5cb85c;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .show{
+    opacity: 0;
+    transition: .3s;
+  }
+
+  .hide{
+    opacity: 1;
+  }
+
+
+  /* sub items */
+
+  .sub-payments{
+    display: block;
+    position: sticky;
+    padding: 0 65px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .sub-payments .sub_payment_headings h1{
+    position: sticky;
+    font-size: 20px;
+  }
+
+  .sub-payments .sub_payment_headings {
+    padding:0 50px;
+    text-align: center;
+    color: #707070;
+
+  }
+
+  .sub-payments .content .blue-bar{
+    display: block;
+    position:sticky;
+    background-color: #0275d8;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .sub-payments .content .blue-bar .icons{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    
+  }
+
+  .sub-payments .content .blue-bar .icons h1{
+    display: inline-block;
+    position: relative;
+    color: white;
+    margin:0 30px;
+    font-size: 35px;
+
+
+  }
+
+  .form1{
+    display: block;
+    position: sticky;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    padding: 15px;
+    
+  }
+  .form1 label{
+    color: #707070 ;
+  }
+  .form1 input{
+    display: block;
+    position: relative;
+    width: 100%;
+    border-style: solid;
+    border-color: #707070;
+    border-radius: 4px;
+    padding-left: 30px;
+  }
+
+  .form1 .subs{
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .form1 .ccv{
+    display: inline-block;
+    position: relative;
+    width: 35%;
+    float: left;
+    padding-left: 2px;
+    margin-left: 35px;
+  }
+
+  .payButton{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: max-content;
+    font-size: 27px;
+  }
+
+  .report-container{
+    border-radius: 5px;
+    display: block;
+    background-color: white;
+    width: max-content;
+    height: max-content;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   
+  }
+
+  .buttoncomponrnt{
+    width: max-content;
+    margin: auto;
+  }
+
+  .buttoncomponrnt button{
+    margin: 10px;
+  }

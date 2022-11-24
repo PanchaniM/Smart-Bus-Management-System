@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+.lowset-container{
+    margin-top: 0px;
+    margin-left: 0px;
+    height: max-content;
+    width: max-content;
+    margin: auto;
+    
+}
+
+.featuredlow{
+    float: left;
+    border-radius: 2px;
+    cursor: pointer;
+    margin:10px;  
+    display: inline-block;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 230px;
+    height: 120px;
+    padding: 20px;
+    padding: 30px; 
+    border-style: solid;
+    border-width: 0 0 8px 0px;
+    transition: 0.3s;
+}
+
+.featuredlow:hover{
+    box-shadow: rgba(50, 50, 93, 0.0) 0px 6px 12px -2px, rgba(0, 0, 0, 0.0) 0px 3px 7px -3px;
+}
+
+.featuredlow.a{
+    background-color: #0275d8;
+    border-color: #0069c5;
+}
+
+ 
+
+.featuredlow.b{
+    background-color: #5cb85c;
+    border-color: #439c43;
+}
+.featuredlow.c{
+    background-color: #5bc0de;
+    border-color: #4caecc;
+}
+.featuredlow.d{
+    background-color: #f0ad4e;
+    border-color: #d6973f;
+}
+
+.featuredlow.e{
+    background-color: #d9534f;
+    border-color: #c0403b;
+}
+.featuredlow.f{
+    background-color: #bb63d1;
+    border-color: #a853bd;
+}
+.featuredlow.g{
+    background-color: #3b3074;
+    border-color: #2b225a;
+}
+.featuredlow.h{
+    background-color: #e95b40;
+    border-color: #d34b2f;
+}
+
+.inner-lvl2 p{
+    margin: 0;
+    color: white;
+}
+
+.inner-lvl2 h1{
+    font-family: 'Handlee', cursive;
+    color: white;
+}
+
+.inner-image{
+    width: 80px;
+    height: 80px;
+}
+.inner-lvl0{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inner-lvl1{
+    flex: 1;
+    color: white;
+    font-size: 40px;
+}
+.inner-lvl2{
+    margin-left: 10px;
+    flex: 1;
+}
+
+.title-container{
+    text-align: center;
+    margin-top: -10px;
+    border-radius: 2px;
+    margin-left: -30px;
+    background-color: blue;
+    width: 230px;
+    position: absolute;
+    height: 30px;
+}

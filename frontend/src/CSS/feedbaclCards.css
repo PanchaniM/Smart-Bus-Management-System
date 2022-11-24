@@ -1,0 +1,12 @@
+.feedbackCards{
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    padding: 50px;
+}
+
+.feedbackCards .card{
+    background-color: tomato;
+    height: 700px;
+    width: 500px;
+}

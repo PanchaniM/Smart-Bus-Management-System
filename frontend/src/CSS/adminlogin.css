@@ -1,0 +1,234 @@
+.ad-log-outer-container {
+  display: block;
+  position: fixed;
+  height: 1080px;
+  width: 1920px;
+  background: hsla(282, 36%, 25%, 1);
+  background: linear-gradient(90deg, hsla(282, 36%, 25%, 1) 0%, hsla(310, 22%, 37%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(282, 36%, 25%, 1) 0%, hsla(310, 22%, 37%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(282, 36%, 25%, 1) 0%, hsla(310, 22%, 37%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#492957", endColorstr="#744A6D", GradientType=1 );
+}
+
+.ad-log-outer-container .midbox {
+  display: block;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 25%;
+  height: 500px;
+  width: 1006px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(143, 143, 143, 1);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(143, 143, 143, 1);
+  box-shadow: 0px 0px 10px 1px rgba(143, 143, 143, 1);
+}
+
+.vl {
+  position: relative;
+  float: left;
+  right: 0;
+  margin-top: 50px;
+  border-radius: 250px;
+  border-left: 6px solid #154360;
+  height: 400px;
+}
+
+.ad-log-outer-container .midbox .leftside {
+  display: inline-block;
+  position: relative;
+  float: left;
+  height: 500px;
+  width: 500px;
+}
+
+.ad-log-outer-container .midbox .leftside img {
+  margin-top: 15%;
+  height: 300px;
+  width: max-content;
+}
+
+.ad-log-outer-container .midbox .rightside {
+  display: inline-block;
+  position: relative;
+  float: left;
+  right: 0;
+  height: 500px;
+  width: 500px;
+}
+
+.ad-log-outer-container .midbox .rightside hr {
+  margin-bottom: 50px;
+  height: 2px;
+  width: 70%;
+  background-color: #154360;
+}
+.ad-log-outer-container .midbox .rightside .form {
+  margin-left: 25%;
+}
+
+.textboxes-adminlog{
+  padding-left: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 250px;
+  width: 80%;
+  border: 1px solid black;
+}
+
+.ad-log-outer-container .midbox .rightside h2 {
+  margin-top: 40px;
+}
+
+.ad-log-outer-container .midbox .rightside a{
+  margin-left: 170px;
+}
+
+.admin-loginbtn{
+  margin-top: 50px;
+  width: 80%;
+  padding: 10px;
+  border-radius: 250px;
+  border: 0px !important;
+  color: white;
+  background-color: #5B2C6F;;
+  transition: .3s;
+  opacity: .6;
+}
+
+.admin-loginbtn:hover{
+  opacity: 1;
+}
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+.outerborder{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+}
+
+.border{
+    top: 80px;
+    height: 500px;
+    padding: 40px;
+    position: relative;
+    background-color: transparent;
+    width:1000px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+  
+  .line{
+    width:60px;
+    border-top: 10px solid rgb(190, 126, 233);
+    border-radius: 30px;
+  }
+  
+  .e_mail{
+    margin-top: 10px;
+    font-size: x-large;
+    margin-bottom: -1%;
+  }
+  .pword{
+    font-size: x-large;
+    margin-bottom: -1%;
+  }
+  
+  .loginbtn{
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    text-align:center;
+    width: 100%;
+    margin-top: 20px;
+    background-color:rgb(190, 126, 233);
+    border: none;
+    color:white;
+    font-family: montserrat;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 100px;
+  }
+  
+.login-email, .login-pw{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .forgot-pword{
+    font-family:'Montserrat', sans-serif;;
+      display:block;
+      text-align-last: right;
+      font-size: larger;
+      margin-bottom: -10px;
+  }
+  .help{
+    text-align-last: center;
+    font-size: larger;
+  }
+
+  .policy{
+    margin: auto;
+    text-align-last: center;
+    font-size: medium;
+  }
+
+  .image12{
+    display: inline-block;
+    position: relative;
+    height: 500px;
+    background-size: 900px;
+    background-repeat: no-repeat;
+    width: 560px;
+    background-position-x: -195px;
+    background-position-y: 90px;
+  }
+
+  .pageleft{
+    background-image: url('../img/adminlogin/bus-blue.png');
+    display:inline-block;
+    float:left;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.center{
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+.pageright{
+  margin-top:-30px;
+  position: relative;
+  float:left;
+  width: 50%;
+  background-size: cover;
+  display: inline-block;
+}
+
+.button-upload{
+  background-color: tomato;
+  
+  display: inline;
+}
+
+.upload{
+
+} */

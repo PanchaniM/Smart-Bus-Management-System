@@ -1,0 +1,10 @@
+.form-control{
+    margin-top: 5px;
+}
+
+.btn-primary{
+    width: 30%;
+    padding: 10px;
+    color:white;
+    background-color: blue;
+}

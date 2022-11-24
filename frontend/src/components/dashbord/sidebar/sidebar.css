@@ -1,0 +1,166 @@
+.Link{
+    text-decoration: none;
+}
+
+
+.toptag{
+    display: flex;
+}
+
+.image1{
+    width: 20px;
+    height:20px;
+}
+
+.sidebar{
+    /* flex: 1; */
+    z-index: 1;
+    left: 0;
+    transition: .5s;
+    display:block;
+    overflow-x: hidden;
+    position: absolute;
+    float: left;
+    height: 100%;
+    width: 80px;
+    position:fixed;
+    background-color: #0d1720;
+    padding:0 5px; 
+    /* transition: all 0.5 ease; */
+}
+
+
+.effect8
+{
+
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect8:before, .effect8:after
+{
+
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect8:after
+{
+
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+
+.sidebar.active{
+    width: 300px;
+    padding-right: 20px;
+}
+
+.sidebarWrapper{
+    flex:1;
+    
+    color: #555;
+}
+
+.sidebarMenu{
+    margin-bottom:10px;
+}
+
+.sidebarTitle{
+    left: 10px;
+    margin-top: 100px;
+    font-size: 20px;
+    color:white;
+    font-weight: 800;
+    left: 100px;
+    
+    
+    
+}
+
+
+.ham{
+    position: relative;
+    right: 0;
+    float: left;
+    left: 12px;
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.ham:hover{
+    background-color: white;
+    border-radius: 15px;
+    color: #0d1720 ;
+}
+
+.sidebarList{
+
+    list-style-type: none;
+    margin-top: 50px;
+    
+}
+
+li{
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+}
+.sidebarListItem{
+    display: block;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin-top: 20px;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    left: 0;
+    cursor: pointer;
+    align-items: center;
+    transition:all 0.3s ease;
+    position: relative;
+}
+
+.p{
+    position: absolute;
+    left: 100px;
+}
+
+.p.active{
+
+}
+
+.tooltip{
+    float:right;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    height: 35px;
+    width: 112px;
+    background-color: white;
+}
+
+
+
+.sidebarListItem i{
+    margin-right:20px ;
+    float: left;
+}
+
+
+sidebarListItem.active,
+ .sidebarListItem:hover{
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: rgba(14, 30, 37, 0.0) 0px 2px 4px 0px, rgba(14, 30, 37, 0.0) 0px 2px 16px 0px;
+    color:#0d1720;
+}

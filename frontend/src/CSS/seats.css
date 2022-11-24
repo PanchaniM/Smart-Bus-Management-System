@@ -1,0 +1,133 @@
+.seat-container{
+  display: block;
+  position: relative;
+  width: 1000px;
+  padding: 10px;
+  margin: auto;
+}
+
+.seat-container .btn.btn-primary{
+  font-size: 15px;
+  padding:3px 15px;
+}
+
+.seat-container .bus{
+    background-color:#add9ff46;
+    display: block;
+    width: max-content;
+    margin: auto;
+    padding: 30px;
+    border-style: solid;
+    border-color: #0275d8;
+    border-width: 0 10px 0 10px;
+    border-radius:  50px 20px 20px 50px  ;
+    margin-top: 20px;
+}
+
+
+.seatid{
+    background-color: #5cb85c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+    display:block;
+    margin: 12px;
+    width: 15px;
+    height: 12px;
+    transition: .2s;
+    
+
+}
+
+/* .seat.occupied{
+  background-color: #d9534f;
+}
+
+.seatid.selected{
+  background-color: #26484b;
+}
+
+#seatid#occupied{
+  background-color: #d9534f;
+} */
+
+/* .seatid:not(.occupied):hover{
+  cursor: pointer;
+  transform: scale(1.2);
+} */
+
+
+.bus .seat-rows input{
+  -webkit-appearance: none;
+  visibility: hidden;
+  display: none;
+
+}
+
+.bus .seat-rows .i{
+  background-color: #5cb85c;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display:block;
+  margin: 1px;
+  transition: .2s;
+  transform: rotate(90deg);
+  font-size: 10px;
+  border-radius:10px ;
+  color: white;
+  padding: 12px;
+  box-shadow: -3px -3px 6px rgba(255,255,255,0.8),
+              2px 2px 4px rgba(0,0,0,0.2);
+} 
+
+.bus .seat-rows .i.occupied{
+  background-color: tomato;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display:block;
+  margin: 1px;
+  transition: .2s;
+  transform: rotate(90deg);
+  font-size: 10px;
+  border-radius:10px ;
+  color: white;
+  padding: 12px;
+  box-shadow: -3px -3px 6px rgba(255,255,255,0.8),
+              2px 2px 4px rgba(0,0,0,0.2);
+} 
+
+.bus .seat-rows .i:hover{
+  transform: scale(1.2);
+}
+
+.bus .seat-rows input:checked~ .i{
+  color:white;
+  background-color: #0275d8;
+  transform: scale(0.97);
+}
+
+.bus .seat-rows input:checked~ .i.occupied{
+  color:white;
+  background-color: tomato;
+  transform: scale(0.97);
+}
+
+.bus .seat-rows ul{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+
+.bus .seat-rows li{
+  margin-left: 20px;
+}
+
+
+
+
+/*  */
+

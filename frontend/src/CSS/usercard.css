@@ -1,0 +1,38 @@
+.user-card{
+    /* background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);  */
+    width: 85px;
+    height: 80px;
+    right: 0;
+    bottom: 50px;
+    position: fixed;
+    cursor: pointer;
+    border-radius: 50px 0 0 50px  ;
+    z-index: 1;
+    transition: .2s;
+    padding: 2.5px;
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+}
+
+.user-card:hover{
+    /* background-image: linear-gradient(to top, #3771d6 0%, #06ace4 100%); */
+    right: 50px;
+    transform: scale(5);
+}
+
+.user-card .profile-img{
+    object-fit: cover;
+    background-color: bisque;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+}
+
+/* .user-card .profile-name{
+    background-color: bisque;
+    width: 160px;
+    height: 75px;
+    float: right;
+    position: relative;
+} */
